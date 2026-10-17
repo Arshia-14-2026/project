@@ -1,0 +1,103 @@
+
+.header {
+    background-color: #030018;
+    border-bottom: 4px solid black;
+    width: auto;
+    height: 800px;
+    position: relative;
+    max-width: 1550px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+body {
+    background:
+    linear-gradient(
+    45deg,
+    #ff00bb 20%,
+    #00e1ff 80%);
+    background-size: 400% 400%;
+    animation:
+        box 10s linear infinite alternate;
+
+}
+
+
+@keyframes box {
+
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+a h4 {
+    color: aliceblue;
+    font-size: 20px;
+}
+.a{
+    display: flex;
+    gap: 35px;
+}
+.a1{
+    text-decoration: none;
+transform: translateX(1050px);
+}
+
+.a2{
+    background:
+    linear-gradient(
+        45deg,
+        #ff00bb 20%,
+        #00e1ff 80%
+        );
+        -webkit-background-clip:text;
+        background-clip:text;
+        -webkit-text-fill-color:transparent ;
+        animation:
+            box1 5s linear infinite alternate;
+            background-size: 400% 400%;
+    text-decoration: none;
+transform: translateX(1050px);
+ 
+}
+
+
+
+@keyframes box1 {
+
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+
+h3{
+    position: absolute;
+    color: aliceblue;
+    right: 1300px;
+     font-size: 30px;
+
+}
+
+.h2{ 
+     text-align: center;
+    transform: translateY(300px);
+    font-size: 30px;
+    color: aliceblue;
+}

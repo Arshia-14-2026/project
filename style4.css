@@ -1,0 +1,230 @@
+
+.header {
+    background-color: #030018;
+    border-bottom: 4px solid black;
+    width: auto;
+    height: 800px;
+    position: relative;
+    max-width: 1550px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+body {
+    background:
+    linear-gradient(
+    45deg,
+    #ff00bb 20%,
+    #00e1ff 80%);
+    background-size: 400% 400%;
+    animation:
+        box 10s linear infinite alternate;
+
+}
+
+
+@keyframes box {
+
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+a h4 {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.a{
+    display: flex;
+    gap: 35px;
+}
+.a1{
+    text-decoration: none;
+transform: translateX(1050px);
+}
+
+.a2{
+    background:
+    linear-gradient(
+        45deg,
+        #ff00bb 20%,
+        #00e1ff 80%
+        );
+        -webkit-background-clip:text;
+        background-clip:text;
+        -webkit-text-fill-color:transparent ;
+        animation:
+            box1 5s linear infinite alternate;
+            background-size: 400% 400%;
+    text-decoration: none;
+transform: translateX(1050px);
+ 
+}
+
+
+
+@keyframes box1 {
+
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+
+h3{
+    position: absolute;
+    color: aliceblue;
+    right: 1300px;
+    font-size: 30px;
+}
+
+
+
+.loader {
+    width: 100px;
+    height: 100px;
+    border: 8px solid #ff00bb;
+    border-top: 8px solid  #00e1ff;
+    border-radius: 50%;
+    animation-name: loader;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    text-align: center;
+    position: absolute;
+   right: 750px;
+   top: 270px;
+  
+}
+
+
+@keyframes loader {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.loading {
+    color: aliceblue;
+    display: flex;
+    gap: 3px;
+    position: absolute;
+    right: 750px;
+    top: 420px;
+   font-size: 16px;
+
+}
+
+.loading1 {
+    width: 5px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    animation: l1  alternate;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    opacity: initial;
+    top: -50px;
+}
+
+
+
+
+@keyframes l1 {
+    to {
+        transform: translateY(-150%);
+    }
+} 
+
+
+.loading2{
+    width: 5px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    animation: l2  alternate;
+    animation-delay: 100ms;
+    animation-iteration-count: infinite;
+    animation-duration: 1s ;
+    animation-timing-function:ease;
+    top: -50px;
+    }
+    
+    
+    @keyframes l2
+    {
+        to{
+            transform: translateY(-200%);
+        }
+    }
+
+
+
+    .loading3{
+        width: 5px;
+        height: 5px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+        animation: l3  alternate;
+        animation-delay: 200ms;
+        animation-iteration-count: infinite;
+        animation-duration: 1s ;
+        animation-timing-function:ease;
+        top: -50px;
+        }
+        
+        
+        @keyframes l3
+        {
+            to{
+                transform: translateY(-250%);
+            }
+        }
+
+
+        
+.loading4{
+    width: 5px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    animation: l4  alternate;
+    animation-delay: 300ms;
+    animation-iteration-count: infinite;
+    animation-duration: 1s ;
+    animation-timing-function:ease;
+    top: -50px;
+    }
+    
+    
+    @keyframes l4
+    {
+        to{
+            transform: translateY(-300%);
+        }
+    }
+
+.h4{
+    text-align: center;
+    transform: translateY(300px);
+    font-size: 30px;
+    color: aliceblue;
+}
