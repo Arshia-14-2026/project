@@ -190,9 +190,9 @@ h3 {
     background-size: 500% 500%;
     animation:
         box2 10s linear infinite alternate;
-        transform: translateY(-50px);
-        position: absolute;
-        right: 1100px;
+    transform: translateY(-50px);
+    position: absolute;
+    right: 1100px;
 }
 
 .button:hover {
@@ -203,4 +203,15 @@ h3 {
     background-size: 500% 500%;
     animation:
         box2 10s linear infinite alternate;
+}
+
+
+
+.ph3 {
+    text-shadow:
+        0 0 5px whitesmoke,
+        0 0 10px rgb(255, 0, 0),
+        0 0 20px rgb(0, 255, 13),
+        0 0 5px rgb(21, 0, 255);
+
 }

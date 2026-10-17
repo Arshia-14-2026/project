@@ -99,3 +99,14 @@ h3 {
     font-size: 30px;
     color: aliceblue;
 }
+
+
+
+.ph3 {
+    text-shadow:
+        0 0 5px whitesmoke,
+        0 0 10px rgb(255, 0, 0),
+        0 0 20px rgb(0, 255, 13),
+        0 0 5px rgb(21, 0, 255);
+
+}
